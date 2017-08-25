@@ -5884,3 +5884,15 @@ pre {
 header.cover.bg-top {
   background-position: bottom;
 }
+
+/*remove padding from bottom*/
+
+.pa3 {
+  padding: 0;
+}
+
+/*decrease anchor size*/
+
+a.f4.fw4.hover-white.no-underline.white-70.dn.dib-ns.pv2.ph3 {
+  font-size: 1rem;
+}
