@@ -5898,3 +5898,11 @@ a.f4.fw4.hover-white.no-underline.white-70.dn.dib-ns.pv2.ph3 {
 .bg-black-60 {
   background-color: rgba(0, 0, 0, .3);
 }
+
+/*fix small text on home page for mobile*/
+
+h2.fw1.f5.f3-l.white-80.measure-wide-l.center.mt3 {
+  font-size: 1.3rem;
+}
+
+/*end*/
