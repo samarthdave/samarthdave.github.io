@@ -244,8 +244,8 @@ header nav li {
   -webkit-animation: 1s slidefade 1s forwards;
           animation: 1s slidefade 1s forwards;
 }
-.hero-content-area h1,
-.hero-content-area h3 {
+.hero-content-area.korea-post h1,
+.hero-content-area.korea-post h3 {
   text-shadow: 0 0 10px #000;
 }
 
