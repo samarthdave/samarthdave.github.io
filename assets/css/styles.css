@@ -208,6 +208,11 @@ header nav li {
   margin-top: 100px;
   animation: 1s slidefade 1s forwards;
 }
+.hero-content-area h1,
+.hero-content-area h3 {
+  text-shadow: 0 0 10px #000;
+}
+
 
 /*thumbnail*/
 .thumbnail {
