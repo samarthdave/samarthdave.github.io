@@ -44,6 +44,41 @@ section {
   padding: 100px 80px;
 }
 
+@media (max-width: 800px) {
+  section.blog-post {
+    padding: 50px 20px;
+  }
+}
+
+section.blog-post {
+  align-items: left;
+}
+
+section.blog-post h1,
+section.blog-post h2,
+section.blog-post h3 {
+  text-align: left;
+}
+
+section.blog-post p {
+  text-align: left;
+  padding: 0 20px 0 10px;
+}
+section.blog-post a {
+  color: #0375a0;
+  text-decoration: underline;
+}
+section.blog-post img {
+  max-width: 80%;
+  border: 1px solid #ddd;
+  padding: 4px;
+  border-radius: 4px;
+}
+.twitter-share-button {
+  position: relative!important;
+  top: 5px;
+}
+
 section:not(.hero):nth-child(even) {
   background-color: #e6e6e6;
 }
